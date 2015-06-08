@@ -4,9 +4,14 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Hello User</title>
+<title>Login Page</title>
 </head>
 <body>
-<h2>Hello User!!!</h2>
+<form action="LoginServletPath" method="post">
+	User ID: <input type="text" name="userid" /> <br>
+	Password: <input type="password" name="password" /> <br>
+	<input type="submit" />
+</form>
+
 </body>
 </html>
